@@ -1,0 +1,9 @@
+So , Basics of Big O notation (O(1), O(n), O(log n), etc.)
+
+✅ Code examples with annotated time and space complexity analysis
+
+🔄 Recursive vs Iterative solutions and how they impact performance
+
+🔍 Real FAANG-style problems and how to choose the optimal solution
+
+🧠 Logical thinking and pattern recognition in complexity analysis
