@@ -1,1 +1,6 @@
+first we see how we can solve this problem think in O(NlgN) via sorting and then said the last index buit this time complexity is bad so we have one more option said linear O(n) 
+but i want way more better O(1) ...
+lets go with Heap...... What is a Max Heap?
+A Max Heap is a binary tree-based data structure where the largest element is always at the root. Every parent is greater than or equal to their children.
+
 
