@@ -1,0 +1,2 @@
+Here we will see the problem where we have two sorted array and one with some extra space and we have to use a logic which will make the array compare
+in the good time complexity and lets solve it . 
