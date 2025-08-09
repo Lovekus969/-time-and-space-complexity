@@ -48,12 +48,13 @@
 
 ---
 
-**Pro tip:** Practice identifying \(a\), \(b\), and \(f(n)\) in problems and apply Master Theorem to get complexity fast.
-ime Complexity Ranking (Fastest to Slowest):
-Rank	Time Complexity	Meaning
-🔥 1	O(1)	Constant Time
-💨 2	O(log n)	Logarithmic
-🚀 3	O(n)	Linear
-🌀 4	O(n log n)	Log-linear / Sorting
-🐢 5	O(n^2)	Quadratic (bad for large n)
-🐌 6	O(2^n), O(n!)	Exponential / Factorial (brutal)
+Phase One :-  Foundations & Big O Basics
+Understand what time complexity measures (growth rate of runtime as input size grows)
+Learn Big O notation: worst-case analysis
+Study common complexities:
+
+        O(1), O(log n), O(n), O(n log n), O(n²), O(2^n), O(n!)
+
+      Practice identifying time complexity in simple loops and nested loops
+
+    
