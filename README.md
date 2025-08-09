@@ -4,6 +4,9 @@ Time complexity measures how the runtime of an algorithm changes as the input si
 Q2 What is Big O Notation?
 Big O describes the worst-case upper bound of the runtime growth as the input size increases. It abstracts away constants and less significant terms to focus on the most impactful factor.
 
+Q3 What is Omega (Ω) Notation?
+ It represents the lower bound (best-case scenario) of running time. which guarantees that the algorithm will at least take this much time, also showing the minimum runtime, regardless of the quality of the input.
+ 
 
 
 
