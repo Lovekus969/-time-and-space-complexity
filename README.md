@@ -62,4 +62,9 @@ Master solving recurrence relations (like T(n) = 2T(n/2) + n)
 Learn about Master Theorem for divide-and-conquer algorithms
 Practice with classic recursive problems (e.g., Fibonacci, Merge Sort)
 
+Phase Three : - Space Complexity & Amortized Analysis
+Understand space complexity (extra memory used)
+Learn about amortized time complexity (e.g., dynamic arrays, splay trees)
+Practice examples like stack operations, hash maps resizing
+
     
