@@ -1,0 +1,6 @@
+The amortized sequence complexity is the “average” cost per operation over a sequence of operations.
+
+
+
+Formula like this  ----------->  worst-case sequence complexity / m                    
+                                    (The MAXIMUM possible total cost of among all possible sequences of m operations)  
