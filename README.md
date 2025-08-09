@@ -56,5 +56,10 @@ Study common complexities:
         O(1), O(log n), O(n), O(n log n), O(n²), O(2^n), O(n!)
 
       Practice identifying time complexity in simple loops and nested loops
+Phase Two : - Analyzing Code Snippets
+Analyze time complexity for recursive functions  
+Master solving recurrence relations (like T(n) = 2T(n/2) + n)
+Learn about Master Theorem for divide-and-conquer algorithms
+Practice with classic recursive problems (e.g., Fibonacci, Merge Sort)
 
     
