@@ -1,6 +1,8 @@
 1. What is Time Complexity?
 Time complexity measures how the runtime of an algorithm changes as the input size (usually n) grows.It helps us estimate the efficiency and scalability of our code. Rather than exact seconds, it focuses on the rate of growth — how many operations relative to input size.
 
+Q2 What is Big O Notation?
+Big O describes the worst-case upper bound of the runtime growth as the input size increases. It abstracts away constants and less significant terms to focus on the most impactful factor.
 
 
 
