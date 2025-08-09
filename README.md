@@ -67,4 +67,13 @@ Understand space complexity (extra memory used)
 Learn about amortized time complexity (e.g., dynamic arrays, splay trees)
 Practice examples like stack operations, hash maps resizing
 
+
+Phase four : - Advanced Data Structures & Their Complexities Study the complexities of data structures: Arrays, Linked Lists, Stacks, Queues
+
+Trees (BST, AVL, Red-Black)
+Heaps, Hash Tables
+Graph representations & traversals (BFS, DFS)
+Understand how complexities affect real use cases
+
+
     
