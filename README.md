@@ -1,4 +1,4 @@
-1. What is Time Complexity?
+Q1 What is Time Complexity?
 Time complexity measures how the runtime of an algorithm changes as the input size (usually n) grows.It helps us estimate the efficiency and scalability of our code. Rather than exact seconds, it focuses on the rate of growth — how many operations relative to input size.
 
 Q2 What is Big O Notation?
@@ -6,6 +6,9 @@ Big O describes the worst-case upper bound of the runtime growth as the input si
 
 Q3 What is Omega (Ω) Notation?
  It represents the lower bound (best-case scenario) of running time. which guarantees that the algorithm will at least take this much time, also showing the minimum runtime, regardless of the quality of the input.
+
+Q4 What is Theta (Θ) Notation
+It represents the tight bound, when the upper and lower bounds are the same asymptotically. Which means the runtime grows exactly as this function, both in the worst and best cases. and it gives a precise estimate of the growth rate.
  
 
 
