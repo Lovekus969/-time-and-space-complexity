@@ -1,1 +1,4 @@
 Here we will se the time complexity of the code and the cheetcode sheet i will update in this folder cheack out . 
+
+
+Here i will attatch the png format of solution ... 
