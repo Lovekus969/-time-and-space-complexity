@@ -34,3 +34,14 @@ Initialize
                                     Return the maximum found.
 
                                                                                     Time Complexity: O(n) Space Complexity: O(1)
+
+Why Kadane’s Algorithm might fail in some cases ???????????????????????????????????????????????????????????????????
+ ---->>>>    All numbers are negative
+ ---->>>>  The standard Kadane implementation resets sums to 0 when they drop below zero.
+ ---->>>>  If all numbers are negative, it would return 0 instead of the largest (least negative) number.
+ ---->>>>  Solution: handle negative-only arrays separately.
+ ---->>>>  Non-contiguous maximum sum problem
+ ---->>>>  Kadane only works for contiguous subarrays.
+ ---->>>>  If you want the max sum from any subset (non-contiguous), you’d need a different approach (like picking all positive numbers).
+ ---->>>>  Integer overflow in extremely large arrays or large values
+
