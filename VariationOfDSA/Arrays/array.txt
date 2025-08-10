@@ -15,3 +15,22 @@ So, majorly three steps
 
 
 Cheackout the file names as Solution.java i will attatch 
+
+
+How it works step-by-step:
+Initialize
+
+                                    maxSoFar = first element (so negative arrays still work)
+                                    currentSum = first element
+
+                                    For each nums[i], check:
+
+                                    Start fresh with nums[i]
+
+                                    Or extend the existing sum currentSum + nums[i]
+
+                                    Update the maximum sum so far.
+
+                                    Return the maximum found.
+
+                                                                                    Time Complexity: O(n) Space Complexity: O(1)
