@@ -42,5 +42,6 @@ Heaps, Hash Tables
 Graph representations & traversals (BFS, DFS)
 Understand how complexities affect real use cases
 
+Master theorm is easy cheack out the img 
 
     
