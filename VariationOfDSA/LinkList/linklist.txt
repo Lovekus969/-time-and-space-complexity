@@ -5,3 +5,13 @@ A collection of nodes where each node contains data and a pointer to the next no
           Dynamic size (no fixed memory block like arrays)                                 No direct indexing (O(n) to access)
           Easy insertion/deletion at head/middle without shifting elements                 Extra memory for pointers
                                                                                             More complex to implement than arrays
+Focoused Concepts:
+          Reverse a Linked List (Iterative & Recursive)
+          Detect a Cycle in a Linked List (Floyd’s Tortoise & Hare)
+          Merge Two Sorted Linked Lists
+          Remove N-th Node From End of List
+          Find the Middle of a Linked List
+          Palindrome Linked List
+          Intersection of Two Linked Lists
+          Rotate Linked List
+
