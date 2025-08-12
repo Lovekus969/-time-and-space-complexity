@@ -109,7 +109,20 @@ public class Classroom {
             head = prev;
         }
     }
-
+         // Detect Cycle - Floyd’s Algorithm
+        // ------------------------
+        public boolean hasCycle() {
+            Node slow = head;
+            Node fast = head;
+            while (fast != null && fast.next != null) {
+                slow = slow.next;
+                fast = fast.next.next;
+                if (slow == fast) {
+                    return true; // cycle detected
+                }
+            }
+            return false;
+        }
     // Main method to test
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
@@ -134,5 +147,7 @@ public class Classroom {
         // Reverse
         list.reverse();
         list.printList(); // 30 -> 10 -> null
+
+        list.hasCycle(); 
     }
 }
