@@ -27,4 +27,7 @@ Find the Middle of a Linked List
 
                         slow pointer moves 1 step
                         fast pointer moves 2 steps
-                        When fast reaches the end, slow is in the middle.
+                        When fast reaches the end, slow is in the middle. it’s basically O(n) time and O(1) space,
+                        and feels like we’re sneakily cutting the list in half without ever knowing its length beforehand.
+
+
