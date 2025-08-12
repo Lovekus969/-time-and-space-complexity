@@ -30,4 +30,9 @@ Find the Middle of a Linked List
                         When fast reaches the end, slow is in the middle. it’s basically O(n) time and O(1) space,
                         and feels like we’re sneakily cutting the list in half without ever knowing its length beforehand.
 
-
+Palindrome Linked List 
+                  Logic:
+                        Find middle of list (Floyd’s slow/fast trick — same as in cycle detection but we stop at middle).
+                        Reverse the second half of the linked list in-place.
+                        Compare the first half & second half node by node.
+                        (Optional) Restore list to original form.
