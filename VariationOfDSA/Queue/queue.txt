@@ -1,0 +1,12 @@
+ Queues Definition:
+A FIFO (First In, First Out) structure — the first element added is the first removed.
+
+                              Types:
+
+                                            Simple Queue → FIFO order.
+                                            
+                                            Circular Queue → Wrap-around in array.
+                                            
+                                            Priority Queue → Elements removed based on priority.
+                                            
+                                            Deque → Insert/delete from both ends.
