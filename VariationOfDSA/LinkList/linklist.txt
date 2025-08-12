@@ -15,3 +15,9 @@ Focoused Concepts:
           Intersection of Two Linked Lists
           Rotate Linked List
 
+Detect a Cycle in a Linked List (Floyd’s Tortoise & Hare)
+            Intuition
+                        slow pointer moves 1 step at a time
+                        fast pointer moves 2 steps at a time
+                        If there’s no cycle, fast will eventually hit null and we return false.
+                        If there is a cycle, fast will eventually “lap” slow and they’ll meet inside the cycle.
