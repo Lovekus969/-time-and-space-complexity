@@ -1,0 +1,2 @@
+ Stacks Definition:
+A LIFO (Last In, First Out) structure — the last element added is the first removed.
