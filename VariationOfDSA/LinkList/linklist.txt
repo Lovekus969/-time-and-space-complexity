@@ -21,3 +21,10 @@ Detect a Cycle in a Linked List (Floyd’s Tortoise & Hare)
                         fast pointer moves 2 steps at a time
                         If there’s no cycle, fast will eventually hit null and we return false.
                         If there is a cycle, fast will eventually “lap” slow and they’ll meet inside the cycle.
+
+Find the Middle of a Linked List
+          Intuition (Two-pointer method):
+
+                        slow pointer moves 1 step
+                        fast pointer moves 2 steps
+                        When fast reaches the end, slow is in the middle.
