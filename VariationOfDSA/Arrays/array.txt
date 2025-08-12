@@ -1,4 +1,6 @@
-Array using continous memory in the system 
+Arrays
+Definition:
+            A fixed-size collection of elements of the same type, stored in contiguous memory locations.Array using continuous             memory in the system 
 
 
 Q1. Problem Statement
