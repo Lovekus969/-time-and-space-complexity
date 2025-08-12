@@ -123,6 +123,18 @@ public class Classroom {
             }
             return false;
         }
+    //find the  middle of the linklist 
+    public Node findMiddle() {
+        Node slow = head;
+        Node fast = head;
+
+    while (fast != null && fast.next != null) {
+        slow = slow.next;         // move 1 step
+        fast = fast.next.next;    // move 2 steps
+    }
+    return slow; // middle node
+}
+
     // Main method to test
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
