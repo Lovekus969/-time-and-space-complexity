@@ -1,2 +1,9 @@
  Stacks Definition:
 A LIFO (Last In, First Out) structure — the last element added is the first removed.
+
+       Operations:
+                     push(x): Add an element x to the top.
+                     pop(): Remove the top element.
+                     peek() or top(): Look at the top element without removing.
+                     isEmpty(): Check if the stack is empty.
+                     
