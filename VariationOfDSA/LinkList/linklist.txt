@@ -1,2 +1,7 @@
 Linked Lists Definition:
 A collection of nodes where each node contains data and a pointer to the next node (and possibly the previous one in a doubly linked list).
+                                Advantage and some disadvantages of the linklist data structure 
+           Advantages                                                                              Disadvantages
+          Dynamic size (no fixed memory block like arrays)                                 No direct indexing (O(n) to access)
+          Easy insertion/deletion at head/middle without shifting elements                 Extra memory for pointers
+                                                                                            More complex to implement than arrays
