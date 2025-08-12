@@ -1,3 +1,4 @@
+So far so good .today we see the master theorm cheack out the update mastertheorm.png 
 Q1 What is Time Complexity?
 Time complexity measures how the runtime of an algorithm changes as the input size (usually n) grows.It helps us estimate the efficiency and scalability of our code. Rather than exact seconds, it focuses on the rate of growth — how many operations relative to input size.
 
