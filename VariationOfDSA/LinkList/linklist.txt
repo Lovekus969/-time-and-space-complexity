@@ -1,0 +1,2 @@
+Linked Lists Definition:
+A collection of nodes where each node contains data and a pointer to the next node (and possibly the previous one in a doubly linked list).
