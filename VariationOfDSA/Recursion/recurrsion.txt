@@ -1,0 +1,13 @@
+here we will see the concepts of recurssion and see what is recursion why we use it and why it works . 
+
+Recursion is when a function calls itself—directly or indirectly—to solve a problem.
+
+The key idea is:
+          
+          You break a big problem into smaller versions of the same problem.
+          Eventually, you reach a base case (a condition where you stop calling the function again).
+
+Structure of Recursion:
+                                             
+          Base case – the simplest version of the problem that can be solved without further calls.
+          Recursive case – where the function calls itself with a smaller or simpler input.
