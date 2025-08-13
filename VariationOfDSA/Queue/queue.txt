@@ -10,3 +10,18 @@ A FIFO (First In, First Out) structure — the first element added is the first 
                                             Priority Queue → Elements removed based on priority.
                                             
                                             Deque → Insert/delete from both ends.
+ What is a Queue?
+A queue is a linear data structure that follows the FIFO (First In, First Out) principle — the element added first is the one removed first.
+Think of it like a line at a barber shop — the first person in the line is served first.
+
+2. Basic Operations
+          Enqueue → Add an element to the rear (end) of the queue.
+          Dequeue → Remove an element from the front of the queue.
+          Peek / Front → View the element at the front without removing it.
+          isEmpty → Check if the queue is empty.
+          isFull → (For fixed-size queues) Check if the queue is full.
+3. Types of Queues
+          Simple Queue → Basic FIFO structure.
+          Circular Queue → Connects the rear back to the front to use space efficiently.
+          Priority Queue → Elements are removed based on priority rather than order.
+          Deque (Double-Ended Queue) → Insertion and deletion from both ends.
