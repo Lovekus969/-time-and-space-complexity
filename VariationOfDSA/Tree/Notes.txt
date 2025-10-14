@@ -1,0 +1,10 @@
+
+                                Common Tree Operations & Their Time Complexities
+| Operation               | Description                     | Balanced Tree (e.g., AVL, Red-Black) | Skewed Tree (worst case) |
+| ----------------------- | ------------------------------- | ------------------------------------ | ------------------------ |
+| **Traversal (DFS/BFS)** | Visit all nodes once            | O(n)                                 | O(n)                     |
+| **Search**              | Find a value in the tree        | O(log n)                             | O(n)                     |
+| **Insert**              | Add a new node                  | O(log n)                             | O(n)                     |
+| **Delete**              | Remove a node                   | O(log n)                             | O(n)                     |
+| **Find Min/Max**        | Go to leftmost/rightmost node   | O(log n)                             | O(n)                     |
+| **Find Height**         | Compute tree height recursively | O(n)                                 | O(n)                     |
