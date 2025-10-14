@@ -16,3 +16,19 @@ In a balanced tree, height ≈ log₂(n), because nodes are evenly distributed.
 
 In a skewed tree (like a linked list), height ≈ n.
 → Operations degrade to O(n).
+
+. Examples
+        Example 1: Binary Search Tree (BST)
+        Best / Average (balanced): O(log n)
+        Worst (skewed): O(n)
+
+Example 2: Binary Tree (non-BST)
+
+        Traversals (Inorder, Preorder, Postorder, Level Order): O(n)
+        → Because every node must be visited exactly once.
+
+      Example 3: Heap (Complete Binary Tree)
+      Insert: O(log n)
+      Delete (Extract Max/Min): O(log n)
+      
+      Search (arbitrary value): O(n)
