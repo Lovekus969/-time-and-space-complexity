@@ -8,3 +8,11 @@
 | **Delete**              | Remove a node                   | O(log n)                             | O(n)                     |
 | **Find Min/Max**        | Go to leftmost/rightmost node   | O(log n)                             | O(n)                     |
 | **Find Height**         | Compute tree height recursively | O(n)                                 | O(n)                     |
+
+. Why the Difference?
+
+In a balanced tree, height ≈ log₂(n), because nodes are evenly distributed.
+→ Hence operations are around O(log n).
+
+In a skewed tree (like a linked list), height ≈ n.
+→ Operations degrade to O(n).
